@@ -1,2 +1,3 @@
 # Luke-Code
-Projeto desenvolvido nas monitorias com auxilio dos monitores Guilherme [![Git](https://cdn.worldvectorlogo.com/logos/github-icon-1.svg)](https://www.linkedin.com/in/alan-diego-biz-094921189/) </br> e José da Recode Pro.
+<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="150px" height="150px">
+Projeto desenvolvido nas monitorias com auxilio dos monitores Guilherme </br> e José da Recode Pro.
