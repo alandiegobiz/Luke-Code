@@ -1,5 +1,5 @@
 # Luke-Code
 
 Projeto desenvolvido nas monitorias com auxilio dos monitores: <br />
-<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="50px" height="50px"> Guilherme </img>
+Guilherme: (https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&link=http://github.com/Guilherme1612)](http://github.com/Guilherme1612)<br />
 José
