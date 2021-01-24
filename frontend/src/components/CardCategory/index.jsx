@@ -6,7 +6,7 @@ const CardCategory = (props) => {
     return (
         <div className="category-card">
             <div className={`category-card-image`} style={{background: props.color}}>
-                <img src={props.image} width="92" alt=""/>
+                <img src={props.image} width="" alt=""/>
             </div>
             <div className="category-card-content">
                 <h4>{props.title}</h4>

@@ -10,17 +10,21 @@ import separator from '../../assets/images/separator.svg'
 import courseReactRedux from '../../assets/images/courses/react-redux.jpg';
 import coursePhp from '../../assets/images/courses/php.jpg';
 import courseFlutter from '../../assets/images/courses/flutter.jpg';
+import markRight from '../../assets/images/mark-right.svg';
+import markLeft from '../../assets/images/mark-left.svg';
+import userReviewImage from '../../assets/images/users/user.png';
 
 
 
 const Home = () => {
+    
     return (
         <>
 
             <Animation />
 
             <div className="section-1">
-                <div className="container">
+                <div className="box">
                     <header className="header">
                         <h2>Luke Code</h2>
                         <nav>
@@ -45,7 +49,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="section-2">
-                <div className='container'>
+                <div className="box">
                     <h2>+3 Cursos Completos</h2>
                     <p>
                         Na Luke Code, você tem acesso a 3 cursos gratuitos, basta se cadastrar na plataforma.
@@ -67,7 +71,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="section-3">
-                <div className="container">
+                <div className="box">
                     <h2>O que oferecemos para você</h2>
                     <section className="categories-container">
                         <CardCategory image="http://pngimg.com/uploads/php/php_PNG32.png" title="BACK-END" courses="22 cursos" color="red" />
@@ -79,6 +83,32 @@ const Home = () => {
                     </section>
                 </div>
             </div>
+            <div className="section-4">
+                <div className="box">
+                    <h2>Depoimentos</h2>
+                    <div className="image-review">
+                        <img src={userReviewImage} width="300px" alt="Joaquim"/>
+                    </div>
+                    <div className="review">
+                        <img src={markLeft} alt=""/>
+                        <p>
+                            Professor extremamente didático e com amplos conhecimentose <br /> 
+                            o curso tem conteúdo que permite exercitar o que é ensinado!
+                        </p>
+                        <img src={markRight} alt=""/>
+                    </div>
+                    <div className="user-review">
+                        <h4>
+                            Joaquim
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div className="box">
+                &copy; Luke Code - Alguns direitos reservados - { new Date().getFullYear() }
+                </div>
+            </footer>
         </>
     )
 
